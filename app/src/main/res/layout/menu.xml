@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="utf-8"?>
+            
+<ScrollView
+    	xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" > 
+        
+    <LinearLayout 
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textViewMenu1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Produk"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageView
+            android:id="@+id/imageViewMenu1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bold9900" />
+
+        <TextView
+            android:id="@+id/textViewMenu2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Bold 9900 [Rp5.500.000]"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewMenu3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Network" />
+
+            <TextView
+                android:id="@+id/textViewMenu4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bold9900Network"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewMenu5"
+                android:layout_width="52dp"
+                android:layout_height="wrap_content"
+                android:text="Display, Size" />
+
+            <TextView
+                android:id="@+id/textViewMenu6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bold9900Display"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewMenu7"
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:text="Dimenson, Weight" />
+
+            <TextView
+                android:id="@+id/textViewMenu8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.28"
+                android:text="@string/bold9900Dimension"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewMenu9"
+                android:layout_width="109dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.46"
+                android:text="Memory Internal, External" />
+
+            <TextView
+                android:id="@+id/textViewMenu10"
+                android:layout_width="184dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.26"
+                android:text="@string/bold9900Memory"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewMenu11"
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:text="Camera" />
+
+            <TextView
+                android:id="@+id/textViewMenu12"
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:text="@string/bold9900Camera"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewMenu13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.09"
+                android:text="Operating System" />
+
+            <TextView
+                android:id="@+id/textViewMenu14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.89"
+                android:text="@string/bold9900OS"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/cbC9900"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Beli" />
+
+        <ImageView
+            android:id="@+id/imageViewMenu2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bold9790" />
+
+        <TextView
+            android:id="@+id/textViewMenu15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Bold 9790 [Rp 3.999.000]"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewMenu16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Network" />
+
+            <TextView
+                android:id="@+id/textViewMenu17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bold9790Network"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewMenu18"
+                android:layout_width="52dp"
+                android:layout_height="wrap_content"
+                android:text="Display, Size" />
+
+            <TextView
+                android:id="@+id/textViewMenu19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bold9790Display"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewMenu20"
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:text="Dimension, Weight" />
+
+            <TextView
+                android:id="@+id/textViewMenu21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bold9790Dimension"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewMenu22"
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:text="Memory Internal, External" />
+
+            <TextView
+                android:id="@+id/textViewMenu23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bold9790Memory"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewMenu24"
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:text="Camera" />
+
+            <TextView
+                android:id="@+id/textViewMenu25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bold9790Camera"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewMenu26"
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:text="Operating System" />
+
+            <TextView
+                android:id="@+id/textViewMenu27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bold9790OS"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/cbC9790"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Beli" />
+
+        <ImageView
+            android:id="@+id/imageViewMenu3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/curve9360" />
+
+        <TextView
+            android:id="@+id/textViewMenu28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Curve 9360 [Rp 3.389.000]"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewMenu29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Network" />
+
+            <TextView
+                android:id="@+id/textViewMenu30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/curve9360Network"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewMenu31"
+                android:layout_width="52dp"
+                android:layout_height="wrap_content"
+                android:text="Display, Size" />
+
+            <TextView
+                android:id="@+id/textViewMenu32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/curve9360Display"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewMenu33"
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:text="Dimension, Weight" />
+
+            <TextView
+                android:id="@+id/textViewMenu34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/curve9360Dimension"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewMenu35"
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:text="Memory Internal, External" />
+
+            <TextView
+                android:id="@+id/textViewMenu36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/curve9360Memory"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewMenu37"
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:text="Camera" />
+
+            <TextView
+                android:id="@+id/textViewMenu38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/curve9360Camera"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewMenu39"
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:text="Operating System" />
+
+            <TextView
+                android:id="@+id/textViewMenu40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/curve9360OS"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/cbC9360"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Beli" />
+
+        <ImageView
+            android:id="@+id/imageViewMenu4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/curve9300" />
+
+        <TextView
+            android:id="@+id/textViewMenu41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Curve 9300 [Rp 2.399.000]"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewMenu42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Network" />
+
+            <TextView
+                android:id="@+id/textViewMenu43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/curve9300Network"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewMenu44"
+                android:layout_width="52dp"
+                android:layout_height="wrap_content"
+                android:text="Display, Size" />
+
+            <TextView
+                android:id="@+id/textViewMenu45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/curve9300Display"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewMenu46"
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:text="Dimension, Weight" />
+
+            <TextView
+                android:id="@+id/textViewMenu47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/curve9300Dimension"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewMenu48"
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:text="Memory Internal, External" />
+
+            <TextView
+                android:id="@+id/textViewMenu49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/curve9300Memory"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewMenu50"
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:text="Camera" />
+
+            <TextView
+                android:id="@+id/textViewMenu51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/curve9300Camera"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewMenu52"
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:text="Operating Syestem" />
+
+            <TextView
+                android:id="@+id/textViewMenu53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/curve9300OS"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/cbC9300"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Beli" />
+
+        <ImageView
+            android:id="@+id/imageViewMenu5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gemini8520" />
+
+        <TextView
+            android:id="@+id/textViewMenu54"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Curve 8520 [Rp 1.800.000]"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewMenu55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Network" />
+
+            <TextView
+                android:id="@+id/textViewMenu56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/curve8520Network"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewMenu57"
+                android:layout_width="52dp"
+                android:layout_height="wrap_content"
+                android:text="Display, Size" />
+
+            <TextView
+                android:id="@+id/textViewMenu58"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/curve8520Display"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout43"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewMenu59"
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:text="Dimension, Weight" />
+
+            <TextView
+                android:id="@+id/textViewMenu60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/curve8520Dimension"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout44"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewMenu61"
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:text="Memory Internal, External" />
+
+            <TextView
+                android:id="@+id/textViewMenu62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/curve8520Memory"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout45"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewMenu63"
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:text="Camera" />
+
+            <TextView
+                android:id="@+id/textViewMenu64"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/curve8520Camera"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout46"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewMenu65"
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:text="Operating System" />
+
+            <TextView
+                android:id="@+id/textViewMenu66"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/curve8520OS"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/cbC8520"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Beli" />
+
+        <Button
+            android:id="@+id/btBayar"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Bayar" />
+
+        <Button
+            android:id="@+id/btHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Home" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.pens.stegano.blackberry" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name">
+        <activity
+            android:name=".BlackberryActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".daftar"></activity>
+        <activity android:name=".konfirm"></activity>
+        <activity android:name=".menu"></activity>
+        <activity android:name=".menuawal"></activity>
+        <activity android:name=".toko"></activity>
+        <activity android:name=".pembayaran"></activity>
+        <activity android:name=".okebayar"></activity>
+    </application>
+
+</manifest>

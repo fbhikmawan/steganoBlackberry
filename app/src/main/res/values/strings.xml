@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, BlackberryActivity!</string>
+    <string name="app_name">Blackberry</string>
+    <string name="bold9900Network">GSM 850 / 900/ 1800/ 1900
+									HSDPA 850 / 1900 / 2100 / 800
+									HSDPA 900 / 1700 / 2100</string>
+	<string name="bold9900Display">TFT QWERTY capacitive touchsreen, 16M color;
+	    							640 x 480 pixel, 2.8 inches (287 ppi pixel;
+	    							QWERTY keyboard;
+	    							Optical Trackpad;
+	    							Touch - sensitive controls;</string>
+	<string name="bold9900Dimension">115 x 66 x 10.5 mm; 130 g</string> 
+	<string name="bold9900Memory">768 MB RAM; microSD, up to 32GB</string>
+	<string name="bold9900Camera">5 MP, 2592 x 1944 pixels, LED Flash</string>
+	<string name="bold9900OS">BlackBerry OS 7.0</string>
+	
+	    
+	    
+	<string name="bold9790Network">GSM 850 / 900 / 1800 / 1900
+									HSDPA 850 / 1900 / 2100 / 800
+									HSDPA 900 / 1700 / 2100</string>
+	<string name="bold9790Display">TFT capacitive touchscreen, 16M color
+									480 x 360 pixels, 2.46 ppi;
+									QWERTY keyboard;
+									Optical Trackpad;</string>
+	<string name="bold9790Dimension">115 x 66 x 10.5 mm; 130 g</string> 
+	<string name="bold9790Memory">768 MB RAM; microSD, up to 32GB</string>
+	<string name="bold9790Camera">5MP, 2592 x 1944 pixels, autofocus, LED Flash</string>
+	<string name="bold9790OS">BlackBerry OS 7.0</string>
+	
+	    
+	    
+	<string name="curve9360Network">GSM 850 / 900 / 1800 / 1900
+									HSDPA 850 / 1900 / 2100
+									HSDPA 900 / 1700 / 2100</string>
+	<string name="curve9360Display">TFT 480 x 360 pixels, 2.44 inches (~246 ppi pixel density);
+									QWERTY keyboard;
+									Touch-sensitive optical trackpad;</string>
+	<string name="curve9360Dimension">109 x 60 x 11 mm; 99 g</string> 
+	<string name="curve9360Memory">512 MB RAM; microSD, up to 32GB</string>
+	<string name="curve9360Camera">5 MP, 2592х1944 pixels, LED flash</string>
+	<string name="curve9360OS">BlackBerry OS 7.0</string>
+	
+	    
+	    
+	<string name="curve9300Network">GSM 850 / 900 / 1800 / 1900
+									HSDPA 850 / 1900 / 2100 
+									HSDPA 900 / 1700 / 2100</string>
+	<string name="curve9300Display">TFT, 65K colors;
+									320 x 240 pixels, 2.46 inches (~163 ppi pixel density);
+									QWERTY keyboard;
+									Touch-sensitive optical trackpad;</string>
+	<string name="curve9300Dimension">109 x 60 x 13.9 mm; 104 g</string> 
+	<string name="curve9300Memory">256 MB RAM; microSD, up to 32GB</string>
+	<string name="curve9300Camera">2 MP, 1600x1200 pixels</string>
+	<string name="curve9300OS">v5.0, upgradable to v6.0</string>
+	
+	    
+	    
+	<string name="curve8520Network">GSM 850 / 900 / 1800 / 1900</string>
+	<string name="curve8520Display">TFT, 65K colors;
+	    							320 x 240 pixels, 2.46 inches (~163 ppi pixel density);</string>
+	<string name="curve8520Dimension">109 x 60 x 13.9 mm; 106 g</string> 
+	<string name="curve8520Memory">256 MB; microSD, up to 32GB</string>
+	<string name="curve8520Camera">2 MP, 1600x1200 pixels</string>
+	<string name="curve8520OS">BlackBerry OS</string>
+
+	    
+	
+	<string name="torch9810Network">GSM 850 / 900 / 1800 / 1900
+									HSDPA 850 / 1900 / 2100</string>
+	<string name="torch9810Display">TFT capacitive touchscreen, 16M colors;
+									640 x 480 pixels;
+									Multitouch;
+									QWERTY keyboard;
+									Optical trackpad;</string>
+	<string name="torch9810Dimension">111 x 62 x 14.6 mm; 161 g</string> 
+	<string name="torch9810Memory">768 MB RAM; microSD up to 32GB</string>
+	<string name="torch9810Camera">5MP, 2592 x 1944 pixels, autofocus, LED flash</string>
+	<string name="torch9810OS">BlackBerry OS 7.0</string> 
+	
+	    
+	    
+	<string name="torch9800Network">GSM 850 / 900 / 1800 / 1900
+									HSDPA 850 / 1900 / 2100 /800</string>
+	<string name="torch9800Display">TFT capacitive touchscreen, 16M colors;
+									480 x 360 pixels, 3.2 inches;
+									Multitouch;
+									QWERTY keyboard;
+									Optical trackpad;</string>
+	<string name="torch9800Dimension">111 x 62 x 14.6 mm; 161 g</string> 
+	<string name="torch9800Memory">512 MB RAM; microSD up to 32GB</string>
+	<string name="torch9800Camera">5 MP, 2592 х 1944 pixels, autofocus, LED flash,</string>
+	<string name="torch9800OS">BlackBerry OS 6.0</string>	    
+	   
+	    
+	    
+	<string name="Balikpapan">Jl. Jend Sudirman No.1 Balikpapan Trade Center Lt. 3 No.62; 0542-75899360</string>    
+	<string name="Bandung1">Istana Bandung Electronic Center Lt. LG A-02; 022-4202422</string>
+	<string name="Bandung2">Istana Plasa Lt. Ground Floor Blok C1-A; 022-60011184</string>
+	<string name="Batam">Komp Bumi Indah Blok V No.27 Nagoya Batam; 0778-8455226</string>
+	<string name="Denpasar">Jl. Teuku Umar 97 A; 0361-235701</string>
+	<string name="Jakarta1">ITC Roxy Mas Lt. Dasar no.87 Jakarta Barat; 021-6335656</string>
+	<string name="Jakarta2">Mall Artha Gading Lt.1F/A2 Jakarta Pusat; 021-45864289</string>
+	<string name="Jakarta3">Mall Ambasador Lt.3A No.6 Jakarta Selatan; 021-5760050</string>
+	<string name="Makasar">Jl. G. Bawakaraeng No.8; 0411-3623484</string>
+	<string name="Mataram">Jl. Pejanggik No.23 Cakranegara Mataram; 0370-623145</string>
+	<string name="Medan1">Jl. Kapten Muslim, Plaza Millenium Lt.1 No.25; 061-8440123</string>
+	<string name="Medan2">Jl. gatot Subroto, Plaza Medan Fair Lt.4 No.17; 061-4140353</string>
+	<string name="logout">Logout</string>
+	<string name="menuutama">Menu Utama</string>
+	<string name="trmksh">Terima Kasih Anda Telah Berbelanja Di Toko Kami</string>
+	<string name="trmkshin">Terima Kasih Anda Telah Sign In</string>
+	<string name="rim">RIM-BB</string>
+	<string name="produk">Produk</string>
+	<string name="servis">Servis</string>
+	<string name="konsul">Konsultasi</string>
+	<string name="kami">Toko Kami</string>
+	<string name="tiptrik">Tips dan Trik</string>
+	<string name="totalygdibayar">Total yang harus anda bayar :</string>
+	<string name="byrsekarang">Bayar Sekarang</string>
+	<string name="batal">Batal</string>
+	
+	    
+</resources>

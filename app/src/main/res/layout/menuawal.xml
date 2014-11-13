@@ -1,0 +1,81 @@
+
+<ScrollView
+    	xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" > 
+        
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/trmkshin"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/rim"
+            android:src="@drawable/rim" />
+
+        <Button
+            android:id="@+id/btProduk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/produk" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btTokoKami"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="@string/kami" />
+
+            <Button
+                android:id="@+id/btServis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/servis" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btTips"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="@string/tiptrik" />
+
+            <Button
+                android:id="@+id/btKonsultasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/konsul" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/logout" />
+
+    </LinearLayout>
+</ScrollView>

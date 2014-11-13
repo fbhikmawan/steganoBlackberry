@@ -1,0 +1,49 @@
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+out/
+build/
+.gradle/
+
+# Local configuration file (sdk path, etc)
+local.properties
+keystore.properties
+
+# Windows Thumbnail Files
+Thumbs.*
+
+# Windows thumbnail db
+.DS_Store
+
+# Mac OS X clutter
+*.DS_Store
+
+# Idea non-crucial project fileS
+*.iws
+
+# Sandbox stuff
+_sandbox
+
+# Eclipse project files
+.classpath
+.project
+
+# Intellij IDEA (see https://intellij-support.jetbrains.com/entries/23393067)
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/datasources.xml
+.idea/dataSources.ids
+
+# Other Intellij IDEA
+*.iml
+.idea
